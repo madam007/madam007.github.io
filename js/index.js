@@ -50,7 +50,7 @@ $(window).scroll(function () {
 
   //project
   // memunculkan gambar 1 per 1
-  if (wscroll > $(".project").offset().top - 70) {
+  if (wscroll > $(".project").offset().top - 100) {
     //mengambil elemen ada 6
     $(".project .card").each(function (i) {
       setTimeout(function () {

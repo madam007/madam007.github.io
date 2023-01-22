@@ -47,7 +47,7 @@ section{
 .pKiri, .pKanan{
     opacity: 0;
     transform: translate(-50px, 0) rotate(15deg);
-    transition: 2s;
+    transition: .8s;
 }
 
 .pKanan{
@@ -62,7 +62,7 @@ transform: translate(0,0);
 .project .card{
     opacity: 0;
      transform: translate(0,-40px);
-    transition: .9s;
+    transition: .8s;
 }
 
 .project .card.muncul{
@@ -76,25 +76,25 @@ transform: translate(0,0);
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-    
+
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-    
+
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-    
+
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    
+
  }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-    
+
  }
