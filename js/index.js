@@ -11,7 +11,7 @@ $(".page-scroll").on("click", function (e) {
         //scrolltop= tergantung scroll halaman
         scrollTop: elemenHref.offset().top -20,
       },
-      1200,
+      800,
       "easeInOutExpo"
     );
   
