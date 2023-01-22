@@ -1,0 +1,72 @@
+html{
+    scroll-behavior: smooth;
+}
+.jumbotron{
+    padding-top: 5rem;
+    background: radial-gradient( #fdbb2d, #22c1c3);
+}
+
+.project .container .row .bi{
+    font-size: 80px;
+    text-align: center;
+}
+
+.project .container .row h4{
+    text-align: center;
+    text-decoration: underline;
+}
+.project .container .row p{
+    font-size: 16px;
+    color: rgb(68, 58, 58);
+}
+
+section{
+    padding-top: 5rem;
+}
+
+.trash-button {
+    width: 30px;
+    height: 30px;
+    background: url(../assets/trash-outline.svg);
+    background-size:contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.box-komen{
+    max-width:600px;
+    height: 70vh;
+}
+.list-item{
+    height: 100%;
+    overflow: auto;
+}
+/* komen */
+/* jquery effect */
+.pKiri, .pKanan{
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(15deg);
+    transition: 2s;
+}
+
+.pKanan{
+    transform: translate(50px,0) rotate(-15deg);
+}
+
+.pKiri.pMuncul , .pKanan.pMuncul{
+opacity: 1;
+transform: translate(0,0);
+}
+
+.project .card{
+    opacity: 0;
+     transform: translate(0,-40px);
+    transition: .9s;
+}
+
+.project .card.muncul{
+    opacity: 1;
+    transform: translate(0,0);
+    
+}
