@@ -42,7 +42,7 @@ $(window).scroll(function () {
   });
 
   // about
-  if (wscroll > $(".about").offset().top - 50) {
+  if (wscroll > $(".about").offset().top - 100) {
     //mengambil elemen ada 6
     // eslint-disable-next-line no-undef
     $(".pKiri , .pKanan ").addClass("pMuncul");
