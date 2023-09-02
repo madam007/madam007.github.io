@@ -1,9 +1,10 @@
 html{
-    position: relative;
+    margin: 0;
+    padding: 0;
 }
 .jumbotron{
     padding-top: 5rem;
-    background: radial-gradient( #fdbb2d, #22c1c3);
+    background: radial-gradient( #1c1e1e, #333435);
 }
 
 .project .container .row .bi{
@@ -11,9 +12,9 @@ html{
     text-align: center;
 }
 
-.project .container .row h4{
+.project .container .row .card .card-body a{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
 }
 .project .container .row p{
     font-size: 16px;
@@ -70,6 +71,7 @@ transform: translate(0,0);
     transform: translate(0,0);
     
 }
+
 
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // No media query for `xs` since this is the default in Bootstrap */
